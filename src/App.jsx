@@ -10,6 +10,7 @@ import Movies from "./components/Movies";
 import RecentlyAdded from "./components/RecentlyAdded";
 import MyList from "./components/MyList";
 import MovieDetails from "./components/MovieDetails";
+import SearchPage from "./components/SearchPage";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/tvshows" element={<TVShows />} />
           <Route path="/movies/" element={<Movies />} />
           <Route path="/movieDetails/:movieId" element={<MovieDetails />} />
+          <Route path="/search/" element={<SearchPage />} />
           <Route path="/recAdd" element={<RecentlyAdded />} />
           <Route path="/myList" element={<MyList />} />
         </Routes>

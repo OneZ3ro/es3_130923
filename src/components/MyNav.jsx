@@ -85,7 +85,9 @@ const MyNav = () => {
             className="d-flex"
             style={{ justifyContent: "flex-end" }}
           >
-            <i className="fa fa-search icons"></i>
+            <Link to={"/search"}>
+              <i className="fa fa-search icons"></i>
+            </Link>
             <i className="fa fa-bell icons"></i>
             <i className="fa fa-user icons"></i>
           </div>
